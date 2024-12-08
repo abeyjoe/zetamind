@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Meta SEO -->
+    <meta name="title" content="Zetamind - Tailwind CSS Landing Page">
+    <meta name="description"
+        content="Get started with a free and open-source landing page built with Tailwind CSS and the Flowbite component library.">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Themesberg">
+
+    <!-- Social media share -->
+    <meta property="og:title" content="Zetamind - Tailwind CSS Landing Page">
+    <meta property="og:site_name" content="Themesberg">
+    <meta property="og:url" content="https://https://demo.themesberg.com/Zetamind/">
+    <meta property="og:description"
+        content="Get started with a free and open-source landing page for Tailwind CSS built with the Flowbite component library featuring dark mode, hero sections, pricing cards, and more.">
+    <meta property="og:type" content="">
+    <meta property="og:image"
+        content="https://themesberg.s3.us-east-2.amazonaws.com/public/github/Zetamind/og-image.png">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@themesberg" />
+    <meta name="twitter:creator" content="@themesberg" />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="./output.css" rel="stylesheet">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <!-- My Links -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+    <section class="bg-gray-50 py-10 px-6 sm:px-10 rounded-lg shadow-lg max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold text-blue-600 mb-6 text-center">Get a Demo</h2>
+        
+        <form action="#" method="POST" class="grid gap-6 sm:grid-cols-2">
+            <!-- Fullname -->
+            <div class="sm:col-span-2">
+                <label for="fullname" class="block text-sm font-medium text-gray-700">Fullname</label>
+                <input type="text" id="fullname" name="fullname"
+                    class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
+                    placeholder="Enter your full name" required />
+            </div>
+
+            <!-- Email -->
+            <div>
+                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                <input type="email" id="email" name="email"
+                    class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
+                    placeholder="Enter your email address" required />
+            </div>
+
+            <!-- Phone -->
+            <div>
+                <label for="phone" class="block text-sm font-medium text-gray-700">Phone No</label>
+                <input type="tel" id="phone" name="phone" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm" placeholder="Enter your phone number" required />
+            </div>
+
+            <!-- Organization -->
+            <div>
+                <label for="organization" class="block text-sm font-medium text-gray-700">Organization</label>
+                <input type="text" id="organization" name="organization" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm" placeholder="Enter your organization name" required />
+            </div>
+
+            <!-- Address -->
+            <div>
+                <label for="address" class="block text-sm font-medium text-gray-700">Address</label>
+                <input type="text" id="address" name="address" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm" placeholder="Enter your address" required />
+            </div>
+
+            <!-- Message -->
+            <div class="sm:col-span-2">
+                <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                <textarea id="message" name="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm" placeholder="Write your message" required></textarea>
+            </div>
+
+            <!-- Where did you hear about us? -->
+            <div class="sm:col-span-2">
+                <label for="source" class="block text-sm font-medium text-gray-700">Where did you hear about us?</label>
+                <select id="source" name="source" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm">
+                    <option value="" disabled selected>Please select</option>
+                    <option value="Blog Post">Blog Post</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="LinkedIn">LinkedIn</option>
+                    <option value="Online Search">Online Search</option>
+                    <option value="Sales Agent">Sales Agent</option>
+                    <option value="Referral">Referral</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="sm:col-span-2">
+                <button type="submit" class="w-full py-3 px-6 bg-blue-600 text-white font-medium text-sm rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Request Demo</button>
+            </div>
+        </form>
+    </section>
+
+
+
+
+
+
+    <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+</body>
+
+</html>

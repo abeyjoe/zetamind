@@ -275,51 +275,53 @@
                 <section class="bg-gray-50 py-10 px-6 sm:px-10 rounded-lg shadow-lg max-w-5xl mx-auto">
                     <h2 class="text-3xl font-bold text-blue-600 mb-6 text-center">Get a Demo</h2>
 
-                    <form action="https://formsubmit.co/info@zetamingroup.com" method="POST" class="grid gap-6 sm:grid-cols-2">
+                    <!--<form action="https://formsubmit.co/info@zetamingroup.com" method="POST" class="grid gap-6 sm:grid-cols-2">
                         <input type="hidden" name="_cc" value="oluwatomi@zetamindgroup.com,sales@zetamindgroup.com,tunji@zetamindgroup.com,chidinma@zetamindgroup.com">
-                        <!--<input type="hidden" name="_cc" value="oluwatomi@zetamindgroup.com,sales@zetamindgroup.com,eaa496e2c86bf7cd76b91731ba3042cc,chidinma@zetamindgroup.com">-->
+                        <input type="hidden" name="_cc" value="oluwatomi@zetamindgroup.com,sales@zetamindgroup.com,eaa496e2c86bf7cd76b91731ba3042cc,chidinma@zetamindgroup.com">
+                        <input type="hidden" name="_next" value="https://zetamindconsulting.com/">
                         <input type="hidden" name="_captcha" value="false">
                         <input type="hidden" name="_template" value="table">
-                        <!-- Fullname -->
+                        <input type="hidden" name="_subject" value="New submission!">
+                         Fullname 
                         <div class="sm:col-span-2">
                             <label for="fullname" class="block text-sm font-medium text-gray-700">Fullname</label>
                             <input type="text" name="fullname" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm" placeholder="Enter your full name" required />
                         </div>
 
-                        <!-- Email -->
+                         Email 
                         <div>
                             <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
                             <input type="email" name="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm" placeholder="Enter your email address" required />
                         </div>
 
-                        <!-- Phone -->
+                         Phone 
                         <div>
                             <label for="phone" class="block text-sm font-medium text-gray-700">Phone No</label>
                             <input type="tel" name="phone" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm" placeholder="Enter your phone number" required />
                         </div>
 
-                        <!-- Organization -->
+                         Organization 
                         <div>
                             <label for="organization" class="block text-sm font-medium text-gray-700">Organization</label>
                             <input type="text" name="organization" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm" placeholder="Enter your organization name" required />
                         </div>
 
-                        <!-- Address -->
+                         Address 
                         <div>
                             <label for="address" class="block text-sm font-medium text-gray-700">Address</label>
                             <input type="text" name="address" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm" placeholder="Enter your address" required />
                         </div>
 
-                        <!-- Message -->
+                         Message 
                         <div class="sm:col-span-2">
                             <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
                             <textarea name="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm" placeholder="Write your message" required></textarea>
                         </div>
 
-                        <!-- Where did you hear about us? -->
+                         Where did you hear about us? 
                         <div class="sm:col-span-2">
                             <label for="source" class="block text-sm font-medium text-gray-700">Where did you hear about us?</label>
-                            <!--<select id="source" name="source" autocomplete="source-name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm">-->
+                            <select id="source" name="source" autocomplete="source-name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm">
                             <select name="source" autocomplete="source-name" class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-1.5 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
                                 <option disabled selected>Please select</option>
                                 <option value="Blog Post">Blog Post</option>
@@ -333,11 +335,47 @@
                             </select>
                         </div>
 
-                        <!-- Submit Button -->
+                        Submit Button 
                         <div class="sm:col-span-2">
                             <button type="submit" class="w-full py-3 px-6 bg-blue-600 text-white font-medium text-sm rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Request Demo</button>
                         </div>
+                    </form> -->
+
+                    <form method="POST" id="target" action="/el/xavedi">
+                        <input type="hidden" name="_token" value="tEwBQ62PEUJDJH5OSQ4cx3toQ4iuKxJ16ag5z5HK">                <div class="form-group">
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for="name">Full Name</label>
+                                    <input type="text" id="name" name="name" class="form-control" required
+                                           value="">
+                                </div>
+                                <div class="col">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" class="form-control" required
+                                           value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" name="message" rows="8" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group input-group-lg">
+                                <div id="captcha">
+                                    <div data-callback="submit" data-theme="dark" data-sitekey="6LdpKIMUAAAAAPH4XLcypBTMPsV7eTWZrznHCndM" class="g-recaptcha"></div>
+                                    <script src="https://www.google.com/recaptcha/api.js?" async defer></script>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="hidden" value="" name="url">
+                        <button type="submit" class="btn btn-lg btn-dark btn-block">Send Message</button>
                     </form>
+
                 </section>
 
             </div>
